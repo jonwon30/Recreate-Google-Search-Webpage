@@ -104,7 +104,7 @@ main p{
     border-radius: 16px;
     width: 570px;
     height: 25px;
-    margin-left:30%;
+    margin-left:29%;
   }
 
 .topnav input[type=text]:hover{
@@ -140,14 +140,86 @@ p a:hover{
 }
 
 .prefooter {
-    margin-top: 200px;
-    background: lightgrey;
+    margin-top: 210px;
+    background: #f0f0f0;
     height: 30px;
+    margin-bottom:10px;
+    border-bottom: 4px solid black;
 }
 
 .prefooter p{
     color: grey;
     padding-top: 4px;
     padding-left: 8px;
+}
+
+
+
+
+footer p::before{
+    content:'';
+    background: url('https://lh3.googleusercontent.com/proxy/NPj3Than34Ct5RY32lBptfpdrYJJyeK2kUexM7TbTelQoZtuY8sLggQcqfhwn4Nab_Aw3drdnLJ_7HwYdS8TwcfZm_OAcb8z8mk3D7tKHw7RdcWJxrHIHNX-iAS6NRG4Vd0N2QJvZ_84-WfzS4Kz');
+    height: 15px;
+    width: 15px;
+    background-size: contain; background-repeat: no-repeat;
+    position: absolute;
+    left:45%
+}
+
+
+footer {
+    background-color: #f0f0f0;;
+    height: 70px;
+    margin-top:-13px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    color: grey;
+}
+
+.olist {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
     
+}
+
+.olist li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    color: grey;
+}
+
+.olist li a:hover{
+    text-decoration: underline;
+
+}
+
+.list1{
+    display: block;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    float: left;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+footer li{
+    padding:10px;
+}
+
+footer .list2{
+    display: block;
+    float: right;
+    display: flex;
+    margin-right:10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+ol {
+    padding: 8px;
 }
