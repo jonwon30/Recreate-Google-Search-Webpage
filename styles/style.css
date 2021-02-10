@@ -153,9 +153,6 @@ p a:hover{
     padding-left: 8px;
 }
 
-
-
-
 footer p::before{
     content:'';
     background: url('https://lh3.googleusercontent.com/proxy/NPj3Than34Ct5RY32lBptfpdrYJJyeK2kUexM7TbTelQoZtuY8sLggQcqfhwn4Nab_Aw3drdnLJ_7HwYdS8TwcfZm_OAcb8z8mk3D7tKHw7RdcWJxrHIHNX-iAS6NRG4Vd0N2QJvZ_84-WfzS4Kz');
